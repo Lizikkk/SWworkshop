@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+}
+
+h2{
+    color: white;
+    padding-left: 100px;
+    margin:30px;
+}
+
+.coverTxt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+}
+
+.text-box {
+    color: white;
+    padding: 100px;
+    width: 520px;
+    height: 162px;
+}
+
+.text-box h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    margin: 5px 0;
+}
+
+.modal-content input {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.loginBtn {
+    width: 67px;
+    height: 30px;
+    position: absolute;
+    top: 43px;
+    left: 1269px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(21, 21, 21);
+    z-index: 1001;
+    color:white;
+}
+
+.cover {
+    width: 100%;
+    max-width: 1440px;
+    height: 689px;
+    top: 116px;
+    margin: 40 auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-box {
+    width: 30%;
+    background-color: #383838;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-box p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.closeModal {
+    background-color: #888;
+    color: white;
+    padding: 10px 20px;
+    margin:10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.closeModal:hover {
+    background-color: #555;
+}
